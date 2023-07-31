@@ -6,7 +6,6 @@
 /* site banner */
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688), url('../Barber_Shop_img/banner.jpg');
-    /* background: linear-gradient(rgba(0,0,0,0.5),#009688), url('Barber_Shop_img/banner.jpg'); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -71,3 +70,42 @@
 .banner_btn a:hover{
     color: black;
 }
+
+#side_nav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu_btn{
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer; 
+}
+
+#menu_btn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
