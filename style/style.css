@@ -1,18 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-
+/* site banner */
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688), url(/Barber_Shop_img/banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-
+/* site logo */
 .logo{
     width: 140px;
     position: absolute;
     top: 4%;
     left: 10%;
+}
+
+/* banner text */
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* banner button */
+.banner_btn{
+    margin: 70px auto 0;
+}
+.banner_btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
 }
