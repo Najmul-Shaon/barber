@@ -294,4 +294,18 @@ hr {
   .feature_img img {
     width: 100%;
   }
+  .single_service {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .service_description p {
+    font-size: 10px;
+  }
+  hr {
+    margin: 5px auto;
+  }
+
+  .single_service:hover .service_description {
+    bottom: 25% !important;
+  }
 }
