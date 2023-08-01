@@ -158,3 +158,17 @@ nav ul li a {
 .title_text h1 {
   font-size: 50px;
 }
+
+.feature_box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.feature{
+  flex-basis: 50%;
+  
+}
