@@ -198,6 +198,33 @@ nav ul li a {
   text-align: initial;
 }
 
+/* service  */
+#service {
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef;
+}
+
+.service_box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.single_service {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.single_service img {
+  width: 100%;
+  border-radius: 7px;
+}
 /* responsive for mobile  */
 @media screen and (max-width: 770px) {
   .banner-text h1 {
