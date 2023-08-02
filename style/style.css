@@ -270,6 +270,56 @@ hr {
   width: 60%;
 }
 
+/* testimonial */
+#testimonial {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.testimonial_row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.testimonial_col {
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #00968814;
+  cursor: pointer;
+}
+
+.testimonial_col p {
+  font-size: 14px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.user img{
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.user_info .fa-brands{
+  margin-left: 10px;
+  color: #27c0ff;
+  font-size: 20px;
+}
+
+.user_info small{
+  color: #009688;
+}
+
 /* responsive for mobile  */
 @media screen and (max-width: 770px) {
   .banner-text h1 {
