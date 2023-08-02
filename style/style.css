@@ -382,7 +382,7 @@ hr {
 .social_link .fa-brands {
   height: 40px;
   width: 40px;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 40px;
   border: 1px solid #009688;
   margin: 40px 5px 0;
@@ -443,5 +443,20 @@ hr {
   /* testimonial */
   .testimonial_col {
     flex-basis: 100%;
+  }
+
+  /* footer  */
+  .footer_left,
+  .footer_right {
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+
+  .feature_img {
+    top: 25%;
+  }
+
+  #footer_title {
+    font-size: 25px;
   }
 }
