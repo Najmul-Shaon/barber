@@ -292,32 +292,37 @@ hr {
   border-radius: 5px;
   box-shadow: 0 10px 20px 3px #00968814;
   cursor: pointer;
+  transition: transform 0.5s;
 }
 
 .testimonial_col p {
   font-size: 14px;
 }
 
-.user{
+.user {
   display: flex;
   align-items: center;
   margin: 20px 0;
 }
 
-.user img{
+.user img {
   width: 40px;
   margin-right: 20px;
   border-radius: 3px;
 }
 
-.user_info .fa-brands{
+.user_info .fa-brands {
   margin-left: 10px;
   color: #27c0ff;
   font-size: 20px;
 }
 
-.user_info small{
+.user_info small {
   color: #009688;
+}
+
+.testimonial_col:hover {
+  transform: translateY(-7px);
 }
 
 /* responsive for mobile  */
@@ -357,5 +362,10 @@ hr {
 
   .single_service:hover .service_description {
     bottom: 25% !important;
+  }
+
+  /* testimonial */
+  .testimonial_col {
+    flex-basis: 100%;
   }
 }
